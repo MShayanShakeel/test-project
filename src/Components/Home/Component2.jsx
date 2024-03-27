@@ -6,7 +6,7 @@ const Component2 = () => {
     <>
       <div className="row">
         <div className="header-section col-12">
-          <span style={{ fontSize: "4vh" }}>Hello,Leslia Alexender</span>
+          <span style={{ fontSize: "4vh" }}>Hello,Leslia Alexender 👍</span>
         </div>
         <div className="center-main">
           <div className="center-Second">
@@ -158,7 +158,7 @@ const Component2 = () => {
 
             <div className="">
               <div className="table-responsive">
-                <h4 style={{ color: "#E8E8E8" }}>Interview Schedule</h4>
+                <h4 style={{ color: "#E8E8E8", marginLeft : "1.5rem" }}>Interview Schedule</h4>
                 <table className="table table-dark">
                   <thead>
                     <tr>
@@ -175,20 +175,21 @@ const Component2 = () => {
                       <td>Otto</td>
                       <td>@mdo</td>
                       <td>@mdo</td>
+                      <td><button className="Job-status-button" style={{color : "blue"}}>Incomplete</button></td>
                     </tr>
                     <tr>
                       <th scope="row">2</th>
                       <td>Jacob</td>
                       <td>Thornton</td>
                       <td>@fat</td>
-                      <td>@fat</td>
+                      <td><button className="Job-status-button" style={{color : "white"}}>Completed</button></td>
                     </tr>
                     <tr>
                       <th scope="row">3</th>
                       <td>Larry</td>
                       <td>the Bird</td>
                       <td>@twitter</td>
-                      <td>@twitter</td>
+                      <td><button className="Job-status-button" style={{color : "orange"}}>Processing</button></td>
                     </tr>
                   </tbody>
                 </table>

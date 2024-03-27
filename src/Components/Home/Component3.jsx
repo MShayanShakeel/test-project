@@ -12,18 +12,16 @@ const Component1 = () => {
       <div className="MainSidebar row">
         <div className="col-12 Second-main-Sidebar">
           <div className="logo-class  color-white"style={{justifyContent : "space-between"}}>
-            <div className="input-group rounded">
+            <div className="input-group rounded input-field-3">
               <input
                 type="search"
                 className="form-control rounded custom-bg"
                 placeholder="Search"
                 aria-label="Search"
                 aria-describedby="search-addon"
+                style={{borderRadius : "5px"}}
               />
-              <span
-                className="input-group-text border-0"
-                id="search-addon"
-              ></span>
+          
             </div>
             <div className="srting-icons">
               <MdOutlineEditNotifications />
