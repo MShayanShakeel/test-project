@@ -162,16 +162,15 @@ const Component2 = () => {
                 <table className="table table-dark">
                   <thead>
                     <tr>
-                      <th scope="col">#</th>
-                      <th scope="col">First</th>
-                      <th scope="col">Last</th>
-                      <th scope="col">Handle</th>
-                      <th scope="col">Handle</th>
+                      <th scope="col" className="small-width">First</th>
+                      <th scope="col" className="small-width">Last</th>
+                      <th scope="col" className="small-width">Handle</th>
+                      <th scope="col" className="small-width">Handle</th>
+                      <th scope="col" className="small-width">Handle</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <th scope="row">1</th>
                       <td>Mark</td>
                       <td>Otto</td>
                       <td>@mdo</td>

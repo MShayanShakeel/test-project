@@ -1,9 +1,10 @@
 .deshboard-main {
   background-color: #18191d;
+  height: 100vh !important;
 }
 .MainSidebar {
-  height: 100vh;
-  background: #18191d;
+  height: 95vh !important;
+  background: #18191D;
 }
 .Second-main-Sidebar {
   display: flex;
@@ -13,9 +14,28 @@
 }
 .logo-class {
   margin: 4vh 0vh 6vh 0vh;
-  justify-content: space-between;
+  justify-content: center;
   display: flex;
   align-items: center;
+  width: 90%;
+  font-size: 4rem;
+  font-family: Georgia, serif;
+  color: aqua;
+}
+.srting-icons {
+  color: #949398;
+  font-size: 2.5rem;
+  padding: 1px 4px 0px 4px;
+  border-radius: 50%; /* Make the icons round */
+  transition: background-color 0.3s ease; /* Smooth transition for background color change */
+}
+.srting-icons:hover {
+  background: #27282c;
+  /* border-radius: 50px; */
+}
+.custom-bg {
+  background: #27282c;
+  border-radius: 7px;
 }
 .menu-list {
   list-style-type: none;
@@ -40,11 +60,12 @@
   margin-right: 1.5rem;
 }
 .Theam-button {
-  bottom: 100px;
-  position: fixed;
+  /* bottom: 100px; */
+  /* position: fixed; */
   display: flex;
   align-items: center;
-  gap: 1rem;
+  margin-top: 10vh;
+  /* gap: 1rem; */
 }
 .Theam-button svg {
   font-size: 3rem;
@@ -52,12 +73,23 @@
 
 .all-card-main {
   margin: 1px 2rem 1px 2rem;
-  background-color: black;
+  background-color: #262826;
   border-radius: 10px;
 }
 .right-componet-fix-height {
-  overflow: auto;
-  max-height: 45vh !important;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-top: 1vh;
+  max-height: 38vh !important;
+}
+.Second-right-componet-fix-height{
+  width: 100%;
+  padding-top: 1vh;
+  height: 30vh;
+}
+.right-componet-fix-height::-webkit-scrollbar {
+  display: none;
 }
 
 .right-bar-Second {
@@ -66,11 +98,16 @@
 }
 
 .recomended-text-class {
-  justify-content: space-between;
   display: flex;
+  justify-content: space-between;
+  width: 90%;
   align-items: center;
+  margin-top: -3rem;
+  color: #dddddd;
 }
-
+.small-width {
+  width: 20px !important;
+}
 /* Component 3  css  */
 .header-section {
   height: 10vh;
@@ -107,7 +144,48 @@
   justify-content: center;
   align-items: center;
 }
-.custom-height-1px{
+.card-content {
+  display: flex;
+  align-items: center;
+  margin-left: 1.5rem;
+  justify-content: space-between;
+}
+.user-profile-image img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin: 2rem 1rem 5px 0px;
+}
+.card-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding-bottom: 1rem;
+}
+.card-buttons button {
+  padding: 0px 5px;
+  font-size: 10px;
+  background: #323035;
+  border-radius: 4px;
+}
+.user-profile-icon {
+  color: #56575B;
+  margin-right: 1.5rem;
+  margin-top: -3rem !important;
+}
+.Instructer-picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem 1px;
+}
+.Instructer-picture img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+.custom-height-1px {
   margin: 1px 1px 1px 1px;
 }
 .custom-column {
@@ -139,11 +217,11 @@
 }
 
 .custom-px-4 {
-  padding: 1rem 3.5rem 1rem 3.5rem;
+  padding: 5px 3.5rem 5px 3.5rem;
 }
 
 .custom-pt-4 {
-  padding-top: 1rem;
+  padding-top: 5px;
 }
 
 .custom-flex-col {
@@ -155,7 +233,7 @@
 }
 
 .custom-pb-10 {
-  padding-bottom: 2.5rem;
+  padding-bottom: 1rem;
 }
 
 .custom-w-24 {
@@ -245,9 +323,14 @@
 /* External CSS file for table styling */
 
 .table-responsive {
-  overflow-x: auto;
+  /* overflow-x: auto; */
   background-color: #28282b;
   border-radius: 10px;
+  max-height: 19vh;
+  overflow: auto;
+}
+.table-responsive::-webkit-scrollbar {
+  display: none;
 }
 
 .table-dark th,
@@ -261,8 +344,8 @@
 /**********************donut ring*/
 .donut-ring {
   position: relative;
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
 }
 
 .ring {
@@ -314,7 +397,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 15px;
+  font-size: 1.2rem;
   font-weight: bold;
   color: #000;
 }
