@@ -52,7 +52,7 @@ class Graph extends Component {
           onRef={(ref) => (this.chart = ref)}
           containerProps={{
             width: "100%",
-            height: "30vh",
+            height: "28vh",
           }}
         />
       </div>
