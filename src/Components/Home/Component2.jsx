@@ -1,5 +1,12 @@
 import React from "react";
 import "./Component1.css";
+import image1 from "../../images/image-1.png";
+import image2 from "../../images/image-2.png";
+import image3 from "../../images/image-3.png";
+import DountGraph from "./DountGraph";
+import admin1 from "../../images/First-Admin.jpeg";
+import admin2 from "../../images/Second-admn.png";
+import admin3 from "../../images/Thrd0admin.png";
 
 const Component2 = () => {
   return (
@@ -17,13 +24,8 @@ const Component2 = () => {
                   <h2 className="custom-height-1px">1202</h2>
                   <p>Duration 3 Months</p>
                 </div>
-                <div className="donut-ring">
-                  <div className="ring red"></div>
-                  <div className="ring blue"></div>
-                  <div className="ring orange"></div>
-                  <div className="ring green"></div>
-                  <div className="cutout"></div>
-                  <div className="donut-text">17%</div>
+                <div>
+                  <DountGraph />
                 </div>
               </div>
               <div className="graph-section-Second">
@@ -32,13 +34,8 @@ const Component2 = () => {
                   <h2 className="custom-height-1px">1202</h2>
                   <p>Duration 3 Months</p>
                 </div>
-                <div className="donut-ring">
-                  <div className="ring red"></div>
-                  <div className="ring blue"></div>
-                  <div className="ring orange"></div>
-                  <div className="ring green"></div>
-                  <div className="cutout"></div>
-                  <div className="donut-text">17%</div>
+                <div>
+                  <DountGraph />
                 </div>
               </div>
               <div className="graph-section-Second">
@@ -47,13 +44,8 @@ const Component2 = () => {
                   <h2 className="custom-height-1px">1202</h2>
                   <p>Duration 3 Months</p>
                 </div>
-                <div className="donut-ring">
-                  <div className="ring red"></div>
-                  <div className="ring blue"></div>
-                  <div className="ring orange"></div>
-                  <div className="ring green"></div>
-                  <div className="cutout"></div>
-                  <div className="donut-text">17%</div>
+                <div>
+                  <DountGraph />
                 </div>
               </div>
             </div>
@@ -66,19 +58,19 @@ const Component2 = () => {
                     <div className="custom-flex custom-flex-col custom-items-center custom-pb-10">
                       <img
                         className="custom-w-24 custom-h-24 custom-mb-3 custom-rounded-full custom-shadow-lg"
-                        src="https://media.istockphoto.com/id/1498992722/photo/portrait-of-smiling-entrepreneur-showing-thumbs-up-and-messaging-on-smartphone-on-yellow.jpg?s=1024x1024&w=is&k=20&c=J164lN5x1unZN67KeexGP6sI_oYXJbB5nbsF9jbxo0A="
+                        src={image1}
                         alt="Bonnie image"
                       />
                       <h5 className="custom-mb-1 custom-text-xl custom-font-medium custom-text-white">
-                        Bonnie Green
+                        Kristin Watson
                       </h5>
                       <span className="custom-text-sm custom-text-gray-400">
-                        iamali@gamil.com
+                        alma.lawson@gamil.com
                       </span>
                       <span className="custom-text-sm custom-text-gray-400">
                         Total Point 350
                       </span>
-                      <div className="custom-flex custom-mt-4 md:mt-6">
+                      <div className="custom-flex custom-mt-4 md:mt-6 component-2-button">
                         <a
                           href="#"
                           className="custom-inline-flex custom-items-center custom-px-4 custom-py-2 custom-text-sm custom-font-medium custom-text-center custom-text-white custom-bg-[#28282B] custom-rounded-lg custom-border-gray-500 custom-border "
@@ -98,19 +90,19 @@ const Component2 = () => {
                     <div className="custom-flex custom-flex-col custom-items-center custom-pb-10">
                       <img
                         className="custom-w-24 custom-h-24 custom-mb-3 custom-rounded-full custom-shadow-lg"
-                        src="https://media.istockphoto.com/id/1498992722/photo/portrait-of-smiling-entrepreneur-showing-thumbs-up-and-messaging-on-smartphone-on-yellow.jpg?s=1024x1024&w=is&k=20&c=J164lN5x1unZN67KeexGP6sI_oYXJbB5nbsF9jbxo0A="
+                        src={image2}
                         alt="Bonnie image"
                       />
                       <h5 className="custom-mb-1 custom-text-xl custom-font-medium custom-text-white">
-                        Bonnie Green
+                        Jenny Wilson
                       </h5>
                       <span className="custom-text-sm custom-text-gray-400">
-                        iamali@gamil.com
+                        kenzi.lawson@gamil.com
                       </span>
                       <span className="custom-text-sm custom-text-gray-400">
                         Total Point 350
                       </span>
-                      <div className="custom-flex custom-mt-4 md:mt-6">
+                      <div className="custom-flex custom-mt-4 md:mt-6 component-2-button">
                         <a
                           href="#"
                           className="custom-inline-flex custom-items-center custom-px-4 custom-py-2 custom-text-sm custom-font-medium custom-text-center custom-text-white custom-bg-[#28282B] custom-rounded-lg custom-border-gray-500 custom-border "
@@ -130,19 +122,18 @@ const Component2 = () => {
                     <div className="custom-flex custom-flex-col custom-items-center custom-pb-10">
                       <img
                         className="custom-w-24 custom-h-24 custom-mb-3 custom-rounded-full custom-shadow-lg"
-                        src="https://media.istockphoto.com/id/1498992722/photo/portrait-of-smiling-entrepreneur-showing-thumbs-up-and-messaging-on-smartphone-on-yellow.jpg?s=1024x1024&w=is&k=20&c=J164lN5x1unZN67KeexGP6sI_oYXJbB5nbsF9jbxo0A="
-                        alt="Bonnie image"
+                        src={image3}
                       />
                       <h5 className="custom-mb-1 custom-text-xl custom-font-medium custom-text-white">
-                        Bonnie Green
+                        Darrell Steward
                       </h5>
                       <span className="custom-text-sm custom-text-gray-400">
-                        iamali@gamil.com
+                        georgia.young@gamil.com
                       </span>
                       <span className="custom-text-sm custom-text-gray-400">
                         Total Point 350
                       </span>
-                      <div className="custom-flex custom-mt-4 md:mt-6">
+                      <div className="custom-flex custom-mt-4 md:mt-6 component-2-button">
                         <a
                           href="#"
                           className="custom-inline-flex custom-items-center custom-px-4 custom-py-2 custom-text-sm custom-font-medium custom-text-center custom-text-white custom-bg-[#28282B] custom-rounded-lg custom-border-gray-500 custom-border "
@@ -158,38 +149,120 @@ const Component2 = () => {
 
             <div className="">
               <div className="table-responsive">
-                <h4 style={{ color: "#E8E8E8", marginLeft : "1.5rem" }}>Interview Schedule</h4>
+                <h4
+                  style={{
+                    color: "#E8E8E8",
+                    margin: "2rem 2rem",
+                    fontWeight: "bolder",
+                    fontSize: "25px",
+                  }}
+                >
+                  Interview Schedule
+                </h4>
                 <table className="table table-dark">
                   <thead>
-                    <tr>
-                      <th scope="col" className="small-width">First</th>
-                      <th scope="col" className="small-width">Last</th>
-                      <th scope="col" className="small-width">Handle</th>
-                      <th scope="col" className="small-width">Handle</th>
-                      <th scope="col" className="small-width">Handle</th>
+                    <tr style={{ borderBottom: "3px solid #2F3034" }}>
+                      <th scope="col" className="small-width">
+                        Candidat Name
+                      </th>
+                      <th scope="col" className="small-width">
+                        Post Name
+                      </th>
+                      <th scope="col" className="small-width">
+                        Designation
+                      </th>
+                      <th scope="col" className="small-width">
+                        Time
+                      </th>
+                      <th scope="col" className="small-width">
+                        Status
+                      </th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>Mark</td>
-                      <td>Otto</td>
-                      <td>@mdo</td>
-                      <td>@mdo</td>
-                      <td><button className="Job-status-button" style={{color : "blue"}}>Incomplete</button></td>
+                      <td>
+                        <span>
+                          <img
+                            style={{
+                              width: "25px",
+                              height: "25px",
+                              borderRadius: "13px",
+                              marginRight: "1rem",
+                            }}
+                            src={admin1}
+                            alt=""
+                          />
+                        </span>
+                        Thamas Alav
+                      </td>
+                      <td>Developer</td>
+                      <td>BackEnd</td>
+                      <td>11:30</td>
+                      <td>
+                        <button
+                          className="Job-status-button"
+                          style={{ color: "blue" }}
+                        >
+                          Incomplete
+                        </button>
+                      </td>
                     </tr>
                     <tr>
-                      <th scope="row">2</th>
-                      <td>Jacob</td>
-                      <td>Thornton</td>
-                      <td>@fat</td>
-                      <td><button className="Job-status-button" style={{color : "white"}}>Completed</button></td>
+                      <td>
+                        <span>
+                          <img
+                            style={{
+                              width: "25px",
+                              height: "25px",
+                              borderRadius: "13px",
+                              marginRight: "1rem",
+                            }}
+                            src={admin2}
+                            alt=""
+                          />
+                        </span>
+                        Masoom Billa
+                      </td>
+                      <td>Designer</td>
+                      <td>UI/UX</td>
+                      <td>12:00</td>
+                      <td>
+                        <button
+                          className="Job-status-button"
+                          style={{ color: "white" }}
+                        >
+                          Completed
+                        </button>
+                      </td>
                     </tr>
                     <tr>
-                      <th scope="row">3</th>
-                      <td>Larry</td>
-                      <td>the Bird</td>
-                      <td>@twitter</td>
-                      <td><button className="Job-status-button" style={{color : "orange"}}>Processing</button></td>
+                      <td>
+                        <span>
+                          <img
+                            style={{
+                              width: "25px",
+                              height: "25px",
+                              borderRadius: "13px",
+                              marginRight: "1rem",
+                            }}
+                            src={admin3}
+                            alt=""
+                          />
+                        </span>
+                        Swith Liwes
+                      </td>
+                      <td>Content Writer</td>
+                      <td>Writer</td>
+                      <td>12:30</td>
+                      <td>
+                        <button
+                          className="Job-status-button"
+                          style={{ color: "orange" }}
+                        >
+                          Processing
+                        </button>
+                      </td>
                     </tr>
                   </tbody>
                 </table>
