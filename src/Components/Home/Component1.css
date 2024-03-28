@@ -357,7 +357,7 @@
 .table-dark th,
 .table-dark td {
   color: #fff; /* Text color */
-  background-color: #28282b; /* Header and cell background color */
+  /* background-color: #28282b; */
   border-color: #454d55;
   width: 20% !important;
   border: none !important;
@@ -365,6 +365,8 @@
 }
 .table-dark tbody tr:hover {
   cursor: pointer;
+  /* background-color: #28282b; */
+  background-color: #333438;
 }
 .Job-status-button {
   background-color: #28282b;
