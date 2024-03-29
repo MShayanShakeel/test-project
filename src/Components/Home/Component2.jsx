@@ -19,10 +19,10 @@ const Component2 = () => {
           <div className="center-Second">
             <div className="graph-section-main">
               <div className="graph-section-Second">
-                <div className="" style={{ color: "#D4D4D8" }}>
+                <div className="" style={{ color: "#D4D4D8" , padding : "2rem 1px " }}>
                   <h5>Total Application</h5>
                   <h2 className="custom-height-1px">1202</h2>
-                  <p>Duration 3 Months</p>
+                  <span>Duration 3 Months</span>
                 </div>
                 <div>
                   <DountGraph />
@@ -32,7 +32,7 @@ const Component2 = () => {
                 <div className="" style={{ color: "#D4D4D8" }}>
                   <h5>Total Application</h5>
                   <h2 className="custom-height-1px">1202</h2>
-                  <p>Duration 3 Months</p>
+                  <span>Duration 3 Months</span>
                 </div>
                 <div>
                   <DountGraph />
@@ -42,7 +42,7 @@ const Component2 = () => {
                 <div className="" style={{ color: "#D4D4D8" }}>
                   <h5>Total Application</h5>
                   <h2 className="custom-height-1px">1202</h2>
-                  <p>Duration 3 Months</p>
+                  <span>Duration 3 Months</span>
                 </div>
                 <div>
                   <DountGraph />
@@ -51,7 +51,7 @@ const Component2 = () => {
             </div>
 
             <div className="graph-section-main-1">
-              <div className="custom-column">
+              <div className="custom-column " style={{marginRight : "1vh"}}>
                 <div className="custom-container">
                   <div className="custom-border custom-rounded-lg custom-shadow">
                     <div className="custom-flex custom-justify-end custom-px-4 custom-pt-4"></div>
@@ -83,7 +83,7 @@ const Component2 = () => {
                 </div>
               </div>
 
-              <div className="custom-column">
+              <div className="custom-column" style={{margin : "0px 1vh 0px 1vh"}}>
                 <div className="custom-container">
                   <div className="custom-border custom-rounded-lg custom-shadow">
                     <div className="custom-flex custom-justify-end custom-px-4 custom-pt-4"></div>
@@ -115,7 +115,7 @@ const Component2 = () => {
                 </div>
               </div>
 
-              <div className="custom-column">
+              <div className="custom-column" style={{marginLeft : "1vh"}}>
                 <div className="custom-container">
                   <div className="custom-border custom-rounded-lg custom-shadow">
                     <div className="custom-flex custom-justify-end custom-px-4 custom-pt-4"></div>
@@ -200,12 +200,14 @@ const Component2 = () => {
                       <td>BackEnd</td>
                       <td>11:30</td>
                       <td>
-                        <button
+                        <div
                           className="Job-status-button"
                           style={{ color: "blue" }}
                         >
+                                  <span style={{backgroundColor : "#2A333A" , padding : "10px 15px" , borderRadius : "6px"}}>
                           Incomplete
-                        </button>
+                          </span>
+                        </div>
                       </td>
                     </tr>
                     <tr>
@@ -228,12 +230,13 @@ const Component2 = () => {
                       <td>UI/UX</td>
                       <td>12:00</td>
                       <td>
-                        <button
+                        <div
                           className="Job-status-button"
                           style={{ color: "white" }}
                         >
-                          Completed
-                        </button>
+                               <span style={{backgroundColor : "#2A333A" , padding : "10px 15px" , borderRadius : "6px"}}>
+                          Completed</span>
+                        </div>
                       </td>
                     </tr>
                     <tr>
@@ -256,12 +259,14 @@ const Component2 = () => {
                       <td>Writer</td>
                       <td>12:30</td>
                       <td>
-                        <button
+                        <div
                           className="Job-status-button"
                           style={{ color: "orange" }}
                         >
+                           <span style={{backgroundColor : "#2A333A" , padding : "10px 15px" , borderRadius : "6px"}}>
                           Processing
-                        </button>
+                          </span>
+                        </div>
                       </td>
                     </tr>
                   </tbody>

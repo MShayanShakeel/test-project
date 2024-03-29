@@ -63,7 +63,7 @@ const Component1 = () => {
                   style={{ fontSize: "2rem", margin: "0rem 0px -4px 1rem" }}
                 />
               </button>
-              <div
+              {/* <div
                 className={`dropdown-menu ${isOpen ? "show" : ""}`}
                 aria-labelledby="dropdownMenuButton"
               >
@@ -76,7 +76,7 @@ const Component1 = () => {
                 <a className="dropdown-item" href="#">
                   Something else here
                 </a>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

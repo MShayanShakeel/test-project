@@ -27,7 +27,9 @@ class DountGraph extends Component {
         yaxis: {
           labels: {
             style: {
-              colors: ['#808080']
+              colors: ['#808080'],
+              Text : "50%",
+              color : "white"
             }
           }
         },
@@ -41,7 +43,9 @@ class DountGraph extends Component {
         dataLabels: {
           enabled: false,
         },
-      
+      stroke : {
+        width : false
+      },
         plotOptions: {
           donut: {
             labels: {
@@ -91,6 +95,7 @@ class DountGraph extends Component {
 
   render() {
     return (
+          
       <div className="app">
         <div className="row">
           <div className="mixed-chart" >
@@ -98,7 +103,7 @@ class DountGraph extends Component {
               options={this.state.options}
               series={this.state.series}
               type="donut"
-              width="130"
+              width="115"
             />
           </div>
         </div>

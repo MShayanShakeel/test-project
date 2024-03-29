@@ -207,7 +207,7 @@ class App extends Component {
         <div className="row">
           <div
             className="mixed-chart"
-            style={{ marginTop: "20px", marginLeft: "20px" }}
+            style={{ marginTop: "10px", marginLeft: "20px" }}
           >
             <Chart
               options={this.state.options}
