@@ -7,13 +7,14 @@ import DountGraph from "./DountGraph";
 import admin1 from "../../images/First-Admin.jpeg";
 import admin2 from "../../images/Second-admn.png";
 import admin3 from "../../images/Thrd0admin.png";
+import { FaArrowRightArrowLeft } from "react-icons/fa6";
 
 const Component2 = () => {
   return (
     <>
       <div className="row">
         <div className="header-section col-12">
-          <span style={{ fontSize: "4vh" }}>Hello,Leslia Alexender 👍</span>
+          <span className="hamburger-class">Hello,Leslia Alexender 👍</span>
         </div>
         <div className="center-main">
           <div className="center-Second">

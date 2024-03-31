@@ -8,6 +8,7 @@ import { BsGraphUpArrow } from "react-icons/bs";
 import { IoHelpCircle } from "react-icons/io5";
 import { FcRemoveImage } from "react-icons/fc";
 import { IoIosArrowDown } from "react-icons/io";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Component1 = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,14 +16,16 @@ const Component1 = () => {
   const toggleDropdown = () => {
     setIsOpen(!isOpen);
   };
+  const [navbarOpen, setNavbarOpen] = useState(false);
 
   return (
     <>
       <div className="MainSidebar row">
         <div className="col-12 Second-main-Sidebar">
           <div className="logo-class  color-white">Logo</div>
+          {/* <GiHamburgerMenu /> */}
           <div>
-            <ul className="menu-list">
+            <ul className="menu-list" >
               <li>
                 <IoHome /> Home
               </li>

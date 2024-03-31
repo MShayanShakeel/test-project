@@ -1,7 +1,9 @@
 .deshboard-main {
   background-color: #18191d;
-  width: 100%;
+  width: 100% !important;
   height: auto !important;
+  margin-right: 0px;
+  margin-left: 0px;
 }
 .MainSidebar {
   height: 100vh !important;
@@ -124,12 +126,13 @@
   /* height: 10vh; */
   background-color: #18191d;
   display: flex;
+  justify-content: space-between;
   /* align-items: center; */
   margin: 4vh 0px 2vh 0px;
   color: #e6e8eb;
 }
 .center-main {
-  height: 87vh;
+  min-height: 87vh;
   border-radius: 5px;
   /* padding: 5vh 5vh 5vh 5vh; */
   margin-bottom: 1rem;
@@ -179,8 +182,8 @@
 .card-buttons button {
   padding: 6px 15px 4px 15px;
   /* font-size: 10px; */
-  background: #2A333A;
-  border: none; 
+  background: #2a333a;
+  border: none;
   border-radius: 4px;
 }
 .user-profile-icon {
@@ -345,12 +348,10 @@
 /* External CSS file for table styling */
 
 .table-responsive {
-  /* overflow-x: auto; */
   background-color: #28282b;
   border-radius: 10px;
   max-height: 39vh;
-  overflow-x: hidden;
-  overflow-y: auto;
+  overflow: auto;
 }
 .table-responsive::-webkit-scrollbar {
   display: none;
@@ -368,7 +369,7 @@
   border: none !important;
   padding: 10px 10px;
 }
-.table-dark tbody tr{
+.table-dark tbody tr {
   margin-top: 2rem !important;
 }
 .table-dark tbody tr:hover {
@@ -380,7 +381,7 @@
   /* background-color: #28282b; */
   /* background-color: #2A333A; */
   width: 9rem;
-  padding: 5px 1px 1px 1px ;
+  padding: 5px 1px 1px 1px;
   border-radius: 5px;
 }
 /**********************donut ring*/
@@ -445,5 +446,61 @@
 }
 .input-field-3 {
   width: 70%;
+}
+
+/* .HamBuger-class {
+  display: none;
+} */
+.hamburger-class {
+  display: none;
+}
+.show-classs {
+  display: block;
+}
+.hide-classs {
+  display: none;
+}
+
+/* MOBILE RESPONCIVE START  */
+
+@media only screen and (min-width: 251px) and (max-width: 501px) {
+  .graph-section-main {
+    overflow: hidden;
+    overflow-x: auto;
+  }
+  .graph-section-main-1 {
+    overflow: hidden;
+    overflow-x: auto;
+  }
+  .hamburger-class {
+    font-size: 4vh;
+    margin: 5px 1rem;
+    display: block !important;
+    color: #dddddd;
+  }
+  .show-classs {
+    display: block;
+  }
+  .hide-classs {
+    display: none;
+  }
+  .Deshbord-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .graph-section-Second {
+    margin-left: 1rem;
+    min-width: 50vw;
+  }
+.custom-px-4 {
+  padding: 5px 0.5rem 5px 0.5rem;
+}
+.custom-column {
+  min-width: 50vw !important;
+}
+.MainSidebar{
+  height: 120vh !important;
+}
 }
 
