@@ -20,7 +20,7 @@ const Component1 = () => {
 
   return (
     <>
-      <div className="MainSidebar row">
+      <div className="MainSidebar main-sidebar-2 row">
         <div className="col-12 Second-main-Sidebar">
           <div className="logo-class  color-white">Logo</div>
           {/* <GiHamburgerMenu /> */}

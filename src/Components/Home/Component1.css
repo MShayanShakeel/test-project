@@ -352,6 +352,7 @@
   border-radius: 10px;
   max-height: 39vh;
   overflow: auto;
+  border: none ;
 }
 .table-responsive::-webkit-scrollbar {
   display: none;
@@ -499,8 +500,12 @@
 .custom-column {
   min-width: 50vw !important;
 }
-.MainSidebar{
+.MainSidebar-2{
   height: 120vh !important;
+}
+.Theam-button{
+  position: relative;
+  margin-top: 4vh;
 }
 }
 

@@ -15,7 +15,7 @@ import Graph from "./Graph";
 const Component1 = () => {
   return (
     <>
-      <div className="MainSidebar row">
+      <div className="MainSidebar MainSidebar-2 row">
         <div className="col-12 Second-main-Sidebar">
           <div
             className="logo-class  color-white"
@@ -28,7 +28,7 @@ const Component1 = () => {
                 placeholder="Search"
                 aria-label="Search"
                 aria-describedby="search-addon"
-                style={{ borderRadius: "5px" }}
+                style={{ borderRadius: "5px" , border : "none"}}
               />
             </div>
             <div className="srting-icons">
